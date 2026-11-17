@@ -1,0 +1,96 @@
+# =============================================================================
+# Environment & Secrets
+# =============================================================================
+.env
+.env.*
+!.env.example
+
+# =============================================================================
+# Dataset & Large Data Files
+# =============================================================================
+# Raw image dataset folders
+train/
+test/
+valid/
+dataset/
+PlantVillage_for_object_detection/
+labels_src/
+inference_outputs/
+
+# Large report / binary data files
+dataset_preparation_report.json
+plantdoc_class_distribution.png
+plantdoc_pie_charts.png
+plantdoc_preprocessing_report.txt
+names.json
+names_utf8.json
+fixed_plantvillage_yolov8_detection_notebook.ipynb
+
+# =============================================================================
+# YOLO Model Weights (.pt files)
+# =============================================================================
+*.pt
+runs/
+
+# =============================================================================
+# Python
+# =============================================================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.mypy_cache/
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# =============================================================================
+# SQLite Database (generated at runtime)
+# =============================================================================
+*.db
+*.sqlite
+*.sqlite3
+
+# =============================================================================
+# Node / Frontend
+# =============================================================================
+DTI/node_modules/
+DTI/dist/
+node_modules/
+dist/
+
+# =============================================================================
+# OS & Editor
+# =============================================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =============================================================================
+# Misc / Temp / Generated Docs
+# =============================================================================
+.gradio/
+replace.py
+*.doc
+*.docx
+convert_report_to_docx.py
+generate_report_docx.*
+.clear_db_flag
+clear_db.*
+
