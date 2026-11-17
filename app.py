@@ -83,7 +83,7 @@ except ImportError:
 _parse_root_dotenv()
 
 # If GEMINI_API_KEY is not in .env, this fallback is used (prefer setting GEMINI_API_KEY in .env).
-GEMINI_API_KEY_FALLBACK = "AIzaSyB4ujOADdy_3bvMVJc4bQmdjnbC-_E3COo"
+GEMINI_API_KEY_FALLBACK = ""
 DB_PATH = ROOT / "predictions.db"
 DEFAULT_WEIGHTS = ROOT / "yolov8n.pt"
 
